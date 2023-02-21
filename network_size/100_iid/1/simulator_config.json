@@ -1,0 +1,2954 @@
+{
+    "ml_dataset_all_possible_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "ml_delayed_test_accuracy": false,
+    "ml_max_tick": 20000,
+    "ml_non_iid_normal_weight": [
+        10.0,
+        15.0
+    ],
+    "ml_reputation_dll_path": "../reputation_sdk/sample/libreputation_40_training_60_averaging.dylib",
+    "ml_solver_proto": "../../../dataset/MNIST/lenet_solver_memory.prototxt",
+    "ml_test_batch_size": 100,
+    "ml_test_dataset": "../../../dataset/MNIST/t10k-images.idx3-ubyte",
+    "ml_test_dataset_label": "../../../dataset/MNIST/t10k-labels.idx1-ubyte",
+    "ml_train_batch_size": 64,
+    "ml_train_dataset": "../../../dataset/MNIST/train-images.idx3-ubyte",
+    "ml_train_dataset_label": "../../../dataset/MNIST/train-labels.idx1-ubyte",
+    "node_topology": [
+        "0--60",
+        "0--33",
+        "0--2",
+        "0--28",
+        "0--12",
+        "0--80",
+        "0--13",
+        "0--66",
+        "1--48",
+        "1--11",
+        "1--23",
+        "1--80",
+        "1--45",
+        "1--32",
+        "1--27",
+        "1--88",
+        "2--20",
+        "2--48",
+        "2--23",
+        "2--29",
+        "2--24",
+        "2--32",
+        "2--30",
+        "3--48",
+        "3--77",
+        "3--98",
+        "3--65",
+        "3--25",
+        "3--11",
+        "3--43",
+        "3--79",
+        "4--45",
+        "4--11",
+        "4--89",
+        "4--25",
+        "4--54",
+        "4--46",
+        "4--5",
+        "4--75",
+        "5--87",
+        "5--51",
+        "5--24",
+        "5--25",
+        "5--62",
+        "5--15",
+        "5--89",
+        "6--78",
+        "6--23",
+        "6--93",
+        "6--25",
+        "6--71",
+        "6--79",
+        "6--42",
+        "6--43",
+        "7--12",
+        "7--99",
+        "7--81",
+        "7--80",
+        "7--49",
+        "7--89",
+        "7--62",
+        "7--56",
+        "8--50",
+        "8--32",
+        "8--75",
+        "8--19",
+        "8--25",
+        "8--55",
+        "8--21",
+        "8--65",
+        "9--32",
+        "9--29",
+        "9--14",
+        "9--90",
+        "9--78",
+        "9--38",
+        "9--40",
+        "9--31",
+        "10--86",
+        "10--57",
+        "10--69",
+        "10--98",
+        "10--36",
+        "10--96",
+        "10--16",
+        "10--65",
+        "11--92",
+        "11--67",
+        "11--66",
+        "11--98",
+        "11--33",
+        "12--20",
+        "12--50",
+        "12--39",
+        "12--65",
+        "12--33",
+        "12--40",
+        "13--92",
+        "13--45",
+        "13--83",
+        "13--65",
+        "13--66",
+        "13--55",
+        "13--26",
+        "14--16",
+        "14--32",
+        "14--59",
+        "14--98",
+        "14--62",
+        "14--19",
+        "14--69",
+        "15--85",
+        "15--94",
+        "15--68",
+        "15--92",
+        "15--96",
+        "15--43",
+        "15--24",
+        "16--51",
+        "16--19",
+        "16--99",
+        "16--90",
+        "16--52",
+        "16--82",
+        "17--96",
+        "17--92",
+        "17--40",
+        "17--21",
+        "17--50",
+        "17--32",
+        "17--62",
+        "17--47",
+        "18--24",
+        "18--88",
+        "18--45",
+        "18--90",
+        "18--83",
+        "18--26",
+        "18--46",
+        "18--64",
+        "19--84",
+        "19--35",
+        "19--83",
+        "19--20",
+        "19--90",
+        "20--25",
+        "20--75",
+        "20--50",
+        "20--67",
+        "20--97",
+        "21--99",
+        "21--94",
+        "21--89",
+        "21--65",
+        "21--41",
+        "21--33",
+        "22--55",
+        "22--40",
+        "22--51",
+        "22--68",
+        "22--48",
+        "22--37",
+        "22--67",
+        "22--65",
+        "23--83",
+        "23--67",
+        "23--28",
+        "23--85",
+        "23--76",
+        "24--47",
+        "24--66",
+        "24--57",
+        "24--76",
+        "25--89",
+        "25--53",
+        "26--78",
+        "26--42",
+        "26--88",
+        "26--29",
+        "26--85",
+        "26--75",
+        "27--52",
+        "27--55",
+        "27--79",
+        "27--97",
+        "27--57",
+        "27--68",
+        "27--90",
+        "28--40",
+        "28--84",
+        "28--64",
+        "28--35",
+        "28--75",
+        "28--66",
+        "29--58",
+        "29--73",
+        "29--60",
+        "29--41",
+        "29--37",
+        "30--45",
+        "30--61",
+        "30--79",
+        "30--98",
+        "30--50",
+        "30--91",
+        "30--76",
+        "31--78",
+        "31--80",
+        "31--95",
+        "31--38",
+        "31--68",
+        "31--59",
+        "31--52",
+        "32--86",
+        "32--78",
+        "33--75",
+        "33--76",
+        "33--66",
+        "33--97",
+        "34--43",
+        "34--37",
+        "34--36",
+        "34--89",
+        "34--60",
+        "34--99",
+        "34--66",
+        "34--65",
+        "35--74",
+        "35--66",
+        "35--98",
+        "35--75",
+        "35--62",
+        "35--92",
+        "36--98",
+        "36--41",
+        "36--62",
+        "36--64",
+        "36--55",
+        "36--76",
+        "37--81",
+        "37--42",
+        "37--98",
+        "37--54",
+        "37--80",
+        "38--46",
+        "38--92",
+        "38--80",
+        "38--75",
+        "38--77",
+        "38--45",
+        "39--78",
+        "39--99",
+        "39--72",
+        "39--90",
+        "39--93",
+        "39--76",
+        "39--57",
+        "40--89",
+        "40--94",
+        "40--51",
+        "41--48",
+        "41--79",
+        "41--72",
+        "41--69",
+        "41--96",
+        "42--96",
+        "42--47",
+        "42--76",
+        "42--79",
+        "42--46",
+        "43--92",
+        "43--80",
+        "43--57",
+        "43--50",
+        "44--79",
+        "44--76",
+        "44--81",
+        "44--52",
+        "44--83",
+        "44--99",
+        "44--91",
+        "44--93",
+        "45--52",
+        "45--49",
+        "46--90",
+        "46--47",
+        "46--72",
+        "46--81",
+        "47--58",
+        "47--59",
+        "47--53",
+        "47--77",
+        "48--77",
+        "48--92",
+        "48--62",
+        "49--68",
+        "49--67",
+        "49--89",
+        "49--80",
+        "49--63",
+        "49--77",
+        "50--97",
+        "50--72",
+        "51--52",
+        "51--88",
+        "51--63",
+        "51--69",
+        "52--56",
+        "52--93",
+        "53--88",
+        "53--99",
+        "53--58",
+        "53--82",
+        "53--77",
+        "53--97",
+        "54--55",
+        "54--64",
+        "54--56",
+        "54--81",
+        "54--85",
+        "54--68",
+        "55--56",
+        "55--68",
+        "56--59",
+        "56--72",
+        "56--61",
+        "56--81",
+        "57--93",
+        "57--77",
+        "57--72",
+        "58--88",
+        "58--86",
+        "58--63",
+        "58--77",
+        "58--74",
+        "59--60",
+        "59--95",
+        "59--82",
+        "59--61",
+        "60--69",
+        "60--61",
+        "60--67",
+        "60--99",
+        "61--63",
+        "61--68",
+        "61--87",
+        "61--84",
+        "62--90",
+        "63--74",
+        "63--71",
+        "63--95",
+        "63--91",
+        "64--96",
+        "64--93",
+        "64--67",
+        "64--71",
+        "67--97",
+        "69--71",
+        "69--78",
+        "69--97",
+        "70--91",
+        "70--97",
+        "70--78",
+        "70--79",
+        "70--96",
+        "70--82",
+        "70--71",
+        "70--93",
+        "71--85",
+        "71--83",
+        "71--86",
+        "72--82",
+        "72--95",
+        "73--95",
+        "73--96",
+        "73--85",
+        "73--74",
+        "73--84",
+        "73--93",
+        "73--87",
+        "74--84",
+        "74--94",
+        "74--83",
+        "74--82",
+        "81--91",
+        "81--83",
+        "82--94",
+        "82--87",
+        "84--88",
+        "84--87",
+        "84--94",
+        "85--88",
+        "85--95",
+        "86--91",
+        "86--87",
+        "86--95",
+        "86--94",
+        "87--91",
+        "87--94",
+        "91--95"
+    ],
+    "nodes": [
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "0",
+            "node_type": "observer",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "1",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "2",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "3",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "4",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "5",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "6",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "7",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "8",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "9",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "10",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "11",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "12",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "13",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "14",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "15",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "16",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "17",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "18",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "19",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "20",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "21",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "22",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "23",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "24",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "25",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "26",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "27",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "28",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "29",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "30",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "31",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "32",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "33",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "34",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "35",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "36",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "37",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "38",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "39",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "40",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "41",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "42",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "43",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "44",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "45",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "46",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "47",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "48",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "49",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "50",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "51",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "52",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "53",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "54",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "55",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "56",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "57",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "58",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "59",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "60",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "61",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "62",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "63",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "64",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "65",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "66",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "67",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "68",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "69",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "70",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "71",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "72",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "73",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "74",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "75",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "76",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "77",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "78",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "79",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "80",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "81",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "82",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "83",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "84",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "85",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "86",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "87",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "88",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "89",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "90",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "91",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "92",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "93",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "94",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "95",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "96",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "97",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "98",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "buffer_size": 8,
+            "dataset_mode": "iid",
+            "filter_limit": 0.5,
+            "model_generation_type": "normal",
+            "name": "99",
+            "node_type": "normal",
+            "non_iid_distribution": {
+                "1": [
+                    1.0,
+                    2.0
+                ],
+                "3": [
+                    2.0,
+                    3.0
+                ]
+            },
+            "training_interval_tick": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    ],
+    "report_time_remaining_per_tick_elapsed": 100,
+    "services": {
+        "accuracy": {
+            "enable": true,
+            "interval": 20
+        },
+        "force_broadcast_average": {
+            "broadcast_interval": 100,
+            "enable": false
+        },
+        "peer_control_service": {
+            "accuracy_threshold_high": 0.8,
+            "accuracy_threshold_low": 0.2,
+            "enable": false,
+            "fedavg_buffer_size": "linear",
+            "least_peer_change_interval": 50
+        },
+        "weights_diff": {
+            "enable": true,
+            "interval": 20
+        }
+    }
+}
